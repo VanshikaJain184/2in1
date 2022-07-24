@@ -1,0 +1,80 @@
+.{
+	margin:0;
+	padding:0;
+}
+h1 { font-size: 25px; 
+color: white;
+font-family: Brush Script MT,Lucida Handwriting, Cursive;
+}
+body{
+	background-color:Red;
+	overflow:hidden;
+}
+.gameContainer{
+	background-image:url("http://4.bp.blogspot.com/-c_4pWJyfdYg/UFbv7D8v5JI/AAAAAAAAAW4/eO8cu0hhyB0/s1600/free-computer-themes-Graphics.jpg");
+	background-repeat:no-repeat;
+	background-size:100vw 100vh;
+	width:100%;
+	height:100vh;
+}
+
+.boy{
+	background-image:url("https://thumbs.dreamstime.com/z/boy-skating-vector-illustration-36068040.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:200px;
+	height:200px;
+	position:absolute;
+	bottom:0;
+	left:25px;
+}
+.dinasour{
+	background-image:url("https://www.worldatlas.com/r/w1200-h630-c1200x630/upload/2c/e9/5a/shutterstock-410759251.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:150px;
+	height:150px;
+	position:absolute;
+	bottom:0;
+	left:55vw;
+}
+.gameOver{
+	position:relative;
+	visibility:hidden;
+	font-size:100px;
+	color:White;
+	
+}
+#ScoreVal{
+	font-size:60px;
+	color:White;
+}
+.animateBoy{
+	animation: boy 0.6s linear;	
+}
+@keyframes boy{
+	0%{
+		bottom:0;
+	}
+	50%{
+		bottom:440px;
+	}
+	100%{
+		bottom:0;
+	}
+}
+
+.dinasourAni{
+	animation:dinasourAni 5s linear infinite;
+}
+
+@keyframes dinasourAni{
+		0%{
+		left:100vw;
+	}
+	100%{
+		left:-10vw;
+	}
+
+	
+}
